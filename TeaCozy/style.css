@@ -1,0 +1,202 @@
+/* Universal Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+/* Header & Nav Styles */
+
+.position {
+    display: flex;
+    background-color: black;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav span {
+    color: white;
+    text-decoration: underline;
+    padding: 0 10px 0 10px;
+}
+
+.nav span a:visited {
+    color:white;
+    text-decoration: underline;
+}
+
+.nav {
+    padding-right: 30px;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Banner */
+
+.content {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.banner-img {
+    display: flex;
+    background-image: url("../TeaCozy/Resources/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+}
+
+.banner {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.banner h2 {
+    padding-bottom: 10px;
+}
+
+/* Tea of the Month */
+
+.TOTM {
+    margin: 0 auto;
+    width: 1000px
+}
+
+.TOTM-title {
+    text-align: center;
+    padding: 65px 0 30px 0;
+}
+
+.image-gallery {
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.tea-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.tea-pic h4 {
+    padding-top: 10px;
+}
+
+.tea-one-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../TeaCozy/Resources/img-berryblitz.jpg");
+    background-size: cover;
+}
+
+.tea-two-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../TeaCozy/Resources/img-spiced-rum.jpg");
+    background-size: cover;
+}
+
+.tea-three-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../TeaCozy/Resources/img-donut.jpg");
+    background-size: cover;
+}
+
+.tea-four-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../TeaCozy/Resources/img-myrtle-ave.jpg");
+    background-size: cover;
+}
+
+.tea-five-img {
+    width: 300px;
+    height: 200px;
+    background-image: url("../TeaCozy/Resources/img-bedford-bizarre.jpg");
+    background-size: cover;
+}
+
+/* Locations */
+
+.location {
+    padding-top: 60px;
+}
+
+.location-img {
+    width: 100%;
+    height: 500px;
+    background-image: url("../TeaCozy/Resources/img-locations-background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-img h2 {
+    text-align: center;
+    padding-bottom: 15px; 
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    width: 300px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    margin: 0 15px 0 15px
+}
+
+/* Contact */
+
+.contact {
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copyright {
+    padding: 60px 0 15px 20px; 
+}
